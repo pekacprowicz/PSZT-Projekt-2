@@ -1,8 +1,5 @@
-import pandas
 import Classifier
 from random import randint
-import DataOperation as do
-import math
 
 
 class RandomForest:
@@ -12,7 +9,6 @@ class RandomForest:
         self.trees = []
         self.rate = rate
         self.data = data
-        # self.input_data = data
 
         for i in range(size):
             random_indices = []

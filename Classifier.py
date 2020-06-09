@@ -1,5 +1,4 @@
 from abc import ABC, abstractmethod
-import pandas
 import math
 import operator
 import random
@@ -108,7 +107,6 @@ class DecisionStumpClassifier(Classifier):
                 result.append(None)
         
         print("Classify done job")
-        #print(result)
         return result
 
 
